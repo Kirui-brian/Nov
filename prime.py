@@ -7,7 +7,7 @@ for i in range(x):
     try:
         if x % int(i + 1) == 0:
             prime.append(i + 1)
-            print(x + '' + int(i))
+            print(x +  + int(i))
     except:
         pass
         if len(prime) > 2:
